@@ -1,0 +1,100 @@
+.logoSection {
+    background: url(/img/shop/ZeroTo5Logo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 500px;
+    min-height: 260px;
+}
+
+@media (max-width: 1040px) {
+    .neoh_fn_hero .fn_title {
+        min-width: 299px;
+        left: 0px !important;
+    }
+}
+
+.info_list .email {
+    font-size: 18px;
+    text-decoration: none;
+    color: #aaa;
+    border-bottom: 1px solid #414141;
+    margin-top: 5px;
+}
+
+.instaIcon {
+    background: url(/img/insta.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 30px;
+}
+
+.center_align {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+    cursor: pointer;
+}
+
+#overlay img,  #overlay .ytvideo{
+    height: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    /*aspect-ratio: 3/4;*/
+}
+
+.overlay-info {
+    text-align: center;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #overlay img {
+        margin-top:30px;
+    }
+  }
+
+.modal-content {
+    background-color: #111 !important;
+
+}
+
+.modal-header {
+    border-bottom: none;
+}
+.modal-footer {
+    border-top: none;
+}
+.plain-btn {
+    border: 2px solid var(--extra-color) !important;
+    background-color: transparent !important;
+}
+.shop-svg {
+    width: 22px !important;
+    height: 22px !important;
+    margin-top: 3px;
+}

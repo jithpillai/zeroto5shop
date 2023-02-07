@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="A Complete Baby Shop, having Everything you need for your babies">
+<meta name="author" content="Zeroto5">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>ZeroTo5, For the Age 0 to 5</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&amp;family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+<!-- !Google Fonts -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- Styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="css/plugins.css" />
+<link type="text/css" rel="stylesheet" href="css/shop.css" />
+<link type="text/css" rel="stylesheet" href="css/style4963.css?ver=1.1" />
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+<!-- !Styles -->
+
+</head>
+
+<body class="home-static">
+
+
+<!-- Main -->
+<!--OverLay Poster Start-->
+<div id="overlay" onclick="hidePopup()">
+	<div class="overlay-info">Click anywhere to close</div>
+	<!--img src="img/poster.jpg" alt=""-->
+	<iframe class="ytvideo" width="513" height="900" src="https://www.youtube.com/embed/YUESDkY8jVE" title="Our New Christmas Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!--OverLay Poster End-->
+
+<!--Suggestion Form -->
+<div class="modal fade" id="sugForm" tabindex="-1" role="dialog" aria-labelledby="sugForm" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  	<form id="sugFormId">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">Suggestions</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true" style="color: white;">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+
+					Name: <br>
+					<input type="text" name="name"><br>
+					<br>
+					
+					Email: <br>
+					<input type="email" name="email"><br>
+					<br>
+					
+					Your comments: <br>
+					<textarea name="comments" rows="15" cols="50"></textarea><br><br>
+						
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="submit" class="btn btn-warning">Submit</button>
+				</div>
+			</div>
+	    </form>
+	</div>
+  </div>
+<div class="neoh_fn_main" data-footer-sticky="">
+	
+	<!-- Product Modal -->
+	<div class="neoh_fn_modal product_modal">
+		<div class="modal_in">
+			<div class="modal_closer">
+				<a href="#">
+					<img src="svg/cancel.svg" alt="" class="fn__svg">
+				</a>
+			</div>
+			<div class="modal_content">
+				<div class="neoh_fn_product_modal">
+					<div class="img_item">
+						<!-- here comes product's image -->
+					</div>
+					<div class="content_item">
+						<div class="neoh_fn_title" data-align="left">
+							<h3 class="fn_title"><!-- here comes product's title --></h3>
+							<div class="line"><span></span></div>
+						</div>
+						
+						<div class="desc">
+							<p><!-- here comes product's description --></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- !Product Modal -->
+
+	<!-- Right Navigation -->
+	<div class="nav_overlay"></div>
+	<div class="neoh_fn_nav">
+		<div class="trigger is-active">
+			<div class="trigger_in">
+				<span class="text">Close</span>
+				<span class="hamb">
+					<span class="hamb_a"></span>
+					<span class="hamb_b"></span>
+					<span class="hamb_c"></span>
+				</span>
+			</div>
+		</div>
+		<div class="nav_content">
+			<div class="nav_menu">
+				<ul>
+					<li class="menu-item menu-item-has-children">
+						<a href="index.html">Home</a>
+						<ul class="sub-menu">
+							<li><a href="index.html">Home Static</a></li>
+							<li><a href="index-kenburns.html">Full Kenburns</a></li>
+							<li><a href="index-half-kenburns.html">Half Kenburns</a></li>
+							<li><a href="index-half-slider.html">Half Slider</a></li>
+						</ul>
+					</li>
+					<li class="menu-item"><a href="about.html">About</a></li>
+					<li class="menu-item"><a href="collection.html">Collection</a></li>
+					<li class="menu-item"><a href="blog.html">Blog</a></li>
+					<li class="menu-item"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="nav_buttons">
+				<a href="https://opensea.io/" class="neoh_fn_button" target="_blank">
+					<span class="icon"><img src="svg/opensea.svg" alt="" class="fn__svg"></span>
+					<span class="text">OpenSea</span>
+				</a>
+				<a href="https://discord.com/" class="neoh_fn_button" target="_blank">
+					<span class="icon"><img src="svg/discord.svg" alt="" class="fn__svg"></span>
+					<span class="text">Discord</span>
+				</a>
+			</div>
+		</div>
+		
+		<!-- Nav Footer -->
+		<div class="nav_footer">
+			<div class="nf_left">
+				<p>Copyright 2022- Designed &amp; Developed by <a href="https://themeforest.net/user/frenify/portfolio" target="_blank">Frenify</a></p>
+			</div>
+			<div class="nf_right">
+				<div class="neoh_fn_social_list">
+					<ul>
+						<li><a href="#"><i class="fn-icon-twitter"></i></a></li>
+						<li><a href="#"><i class="fn-icon-facebook"></i></a></li>
+						<li><a href="#"><i class="fn-icon-instagram"></i></a></li>
+						<li><a href="#"><i class="fn-icon-pinterest"></i></a></li>
+						<li><a href="#"><i class="fn-icon-behance"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- !Nav Footer -->
+		
+	</div>
+	<!-- !Right Navigation -->
+
+	<!-- Header -->
+	<header class="neoh_fn_header">
+		<div class="container">
+			<div class="header_in">
+			
+				<div class="logo">
+					<a href="/"><img src="img/logo.png" alt=""></a>
+				</div>
+				<!--button type="button" class="btn btn-dark plain-btn" data-toggle="modal" data-target="#sugForm">
+					<span class="icon"><img src="svg/review.svg" alt="Feedback" class="fn__svg shop-svg"></span>
+				</button-->
+				<div class="buttons" style="margin-right: 5px;">
+					<a download="zeroto5_vcard.jpg" href="/img/zeroto5_vcard.jpg" target="_blank" class="neoh_fn_button">
+						<span class="icon"><img src="svg/download.svg" alt="" class="fn__svg"></span>
+						<span class="text">Business Card</span>
+					</a>
+				</div>
+
+				<div class="trigger" style="display: none;">
+					<div class="trigger_in">
+						<span class="text">Menu</span>
+						<span class="hamb">
+							<span class="hamb_a"></span>
+							<span class="hamb_b"></span>
+							<span class="hamb_c"></span>
+						</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+	<!-- !Header -->
+	
+
+	<!-- Content -->
+	<div class="neoh_fn_content">
+
+		<!-- Hero Header -->
+		<div class="neoh_fn_hero">
+			
+			<!-- Overlay (of hero header) -->
+			<div class="bg_overlay">
+				
+				<!-- Overlay Color -->
+				<div class="bg_color"></div>
+				<!-- !Overlay Color -->
+				
+				<!-- Overlay Image -->
+				<div class="bg_image" data-bg-img="img/hero/bg.jpg"></div>
+				<!-- !Overlay Image -->
+				
+			</div>
+			<!-- Overlay (of hero header) -->
+			
+			<div class="hero_content">
+				<div class="container">
+					<div class="content">
+						<div class="logoSection fn_title"></div>
+						<!-- <h2 class="fn_title" title="Neoh">Neoh</h2> -->
+						<p class="fn_desc fn_animated_text">Everything for Babies, From the age Zero to 5. Sometimes even more...</p>
+					</div>
+				</div>
+				<a href="#about" class="neoh_fn_down magic-hover magic-hover__square">
+					<span class="text">Scroll Down</span>
+					<span class="icon"><img src="svg/right-arr.svg" alt="" class="fn__svg"></span>
+				</a>
+			</div>
+			
+				
+			
+		</div>
+		<!-- !Hero Header -->
+		
+		
+		<!-- About Section -->
+		<section id="about">
+			<div class="container">
+				
+				<!-- About Item #1 -->
+				<div class="neoh_fn_about_item">
+					<div class="img_item">
+						<img src="img/about/1.jpg" alt="">
+					</div>
+					<div class="content_item">
+						
+						<div class="neoh_fn_title" data-align="left">
+							<h3 class="fn_title">A Wonderful Age Group</h3>
+							<div class="line"><span></span></div>
+						</div>
+						
+						<div class="desc">
+							<p>The idea to start a Baby shop just for the age group 0 to 5 was inspired from all the plights we went through as a parent to get quality items for our own kids.</p>
+							<p>But naming the establishment was made on a whim! When we are selling everything for babies in the age group Zero to 5, why not name it the same?</p>
+						</div>
+						
+						
+					</div>
+				</div>
+				<!-- !About Item #1 -->
+				
+				<!-- About Item #2 -->
+				<div class="neoh_fn_about_item reverse">
+					<div class="img_item">
+						<img src="img/about/2.jpg" alt="">
+					</div>
+					<div class="content_item">
+						
+						<div class="neoh_fn_title" data-align="left">
+							<h3 class="fn_title">A Growing Collection</h3>
+							<div class="line"><span></span></div>
+						</div>
+						
+						<div class="desc">
+							<p>As a budding firm, we try to expand and grow our collections every single day.</p>
+							<p>Trying to provide the best items in various categories for the targeted age group. Hence we try to keep finding new types of items we can provide for the babies from ZeroTo5</p>
+						</div>
+						
+					</div>
+				</div>
+				<!-- !About Item #2 -->
+				
+				
+			</div>
+		</section>
+		<!-- !About Section -->
+		
+		<!-- Services Section -->
+		<section id="services">
+			
+			<!-- Dividers -->
+			<img src="svg/divider.svg" alt="" class="fn__svg fn__divider top_divider">
+			<img src="svg/divider.svg" alt="" class="fn__svg fn__divider bottom_divider">
+			<!-- !Dividers -->
+			
+			
+			<div class="container">
+				
+				<!-- Main Title -->
+				<div class="neoh_fn_title">
+					<h3 class="fn_title">Why Shop with Us?</h3>
+					<div class="line"><span></span></div>
+				</div>
+				<!-- !Main Title -->
+				
+				<!-- Services -->
+				<div class="neoh_fn_services">
+					<ul>
+						<li>
+							<div class="item">
+								<div class="item_num"><span>01</span></div>
+								<div class="item_content">
+									<h3 class="fn_title">Everything for Babies</h3>
+									<p class="fn_desc fn_animated_text">'One Stop' place for wide range of items. We try to provide the best items from the top brands in each category we provide.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="item_num"><span>02</span></div>
+								<div class="item_content">
+									<h3 class="fn_title">From the heart of 2 MOMs</h3>
+									<p class="fn_desc fn_animated_text">Ran by Two mothers with Toddlers, all the selections and collections we have are hand picked by a Mom</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="item_num"><span>03</span></div>
+								<div class="item_content">
+									<h3 class="fn_title">Close, but not too close!</h3>
+									<p class="fn_desc fn_animated_text">Located at spot which is just 1KM from the main town, We are close but not too close to the crowded town. With ample parking spot, restroom etc, You can shop with us within your comfort zone. </p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<div class="item_num"><span>04</span></div>
+								<div class="item_content">
+									<h3 class="fn_title">Always Up to Date</h3>
+									<p class="fn_desc fn_animated_text">Be it the latest Trend, styles, brands, pricing, and offers, We try to be always Up to Date. Any feedbacks? Do tell us, We are always listening. </p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- !Services -->
+				
+			</div>
+		</section>
+		<!-- !Services Section -->
+		
+		
+		<!-- Drops Section -->
+		<section id="drop">
+			<div class="container">
+				
+				<!-- Main Title -->
+				<div class="neoh_fn_title">
+					<h3 class="fn_title">Our Products</h3>
+					<div class="line"><span></span></div>
+				</div>
+				<!-- !Main Title -->
+				
+				
+				<!-- Drops List -->
+				<div class="neoh_fn_drops">
+					<ul>
+						<li>
+							<div class="item" data-modal-image="img/drops/1.jpg" data-modal-title="New Born Dresses" data-modal-description="New Born section is our forte. We have widerange collections of infant items which you need from Day 1 of Baby. Just to name a few, we have daily wear dresses like Jabla, Sleep Suites, Rombers, Sweaters, Summer wears, Diapers, Reusuable Cotton Diapers, Caps, Socks, Mittens and many more" data-modal-opensea-url="#" data-modal-discord-url="">
+								<div class="img_holder">
+									<img src="img/drops/1.jpg" alt="">
+									<a href="#" class="full_link"></a>
+								</div>
+								<div class="title_holder">
+									<h3 class="fn_title"><a href="#">New Born Dresses</a></h3>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item" data-modal-image="img/drops/2.jpg" data-modal-title="Kids Dresses" data-modal-description="Dresses for all occasion, for the smart boys and beautiful girls in the town. Shirts, Tshirts, Pants, Jeans, Jumpsuits, Frocks, Dailywears etc" data-modal-opensea-url="" data-modal-discord-url="#">
+								<div class="img_holder">
+									<img src="img/drops/2.jpg" alt="">
+									<a href="#" class="full_link"></a>
+								</div>
+								<div class="title_holder">
+									<h3 class="fn_title"><a href="#">Kids Dresses</a></h3>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item" data-modal-image="img/drops/3.jpg" data-modal-title="Baby Accessories" data-modal-description="Various types of baby beds, 2 in 1 Beds, Craddles, Mousquito nets, Feeding Bottles, Bowls, Spoons, Teether, Fruit Feeder, Pacifier, Nail Cutter, Body Lotions, Talcum Powder... Name any Accessories, we probably have it or will have it very soon." data-modal-opensea-url="#" data-modal-discord-url="">
+								<div class="img_holder">
+									<img src="img/drops/3.jpg" alt="">
+									<a href="#" class="full_link"></a>
+								</div>
+								<div class="title_holder">
+									<h3 class="fn_title"><a href="#">Baby Accessories</a></h3>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item" data-modal-image="img/drops/4.jpg" data-modal-title="Kids Inner wears" data-modal-description="All types of kids Inner wears for boys and girls" data-modal-opensea-url="#" data-modal-discord-url="">
+								<div class="img_holder">
+									<img src="img/drops/4.jpg" alt="">
+									<a href="#" class="full_link"></a>
+								</div>
+								<div class="title_holder">
+									<h3 class="fn_title"><a href="#">Kids Innerwears</a></h3>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item" data-modal-image="img/drops/5.jpg" data-modal-title="Footwears and Fancy Items" data-modal-description="All types Baby Footwears like booties, socks shoe, slippers, shoes, fancy slippers etc. We also have fancy items like hair band, hair clips, hair bow, combs etc etc etc." data-modal-opensea-url="#" data-modal-discord-url="">
+								<div class="img_holder">
+									<img src="img/drops/5.jpg" alt="">
+									<a href="#" class="full_link"></a>
+								</div>
+								<div class="title_holder">
+									<h3 class="fn_title"><a href="#">Footwears and Fancy Items</a></h3>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="item" data-modal-image="img/drops/6.jpg" data-modal-title="Toys and Accessories" data-modal-description="Toys are the babies next best friends after his parents. We have a good collection of toys both fun and educational. But we plan to grow even more, there is no limit in the growth we plan in toys. We will keep growing..." data-modal-opensea-url="#" data-modal-discord-url="">
+								<div class="img_holder">
+									<img src="img/drops/6.jpg" alt="">
+									<a href="#" class="full_link"></a>
+								</div>
+								<div class="title_holder">
+									<h3 class="fn_title"><a href="#">Toys and Accessories</a></h3>
+								</div>
+							</div>
+						</li>
+					</ul>
+					
+					<!-- Clearfix -->
+					<div class="clearfix"></div>
+					
+				</div>
+				<!-- !Drops List -->
+				
+			</div>
+		</section>
+		<!-- !Drops Section -->
+		
+		
+		<!-- Investor Section -->
+		<section id="investor">
+			
+			<!-- Dividers -->
+			<img src="svg/divider.svg" alt="" class="fn__svg fn__divider top_divider">
+			<img src="svg/divider.svg" alt="" class="fn__svg fn__divider bottom_divider">
+			<!-- !Dividers -->
+		
+			<div class="container">
+				
+				<!-- Main Title -->
+				<div class="neoh_fn_title">
+					<h3 class="fn_title">Our Top Brands</h3>
+					<div class="line"><span></span></div>
+				</div>
+				<!-- !Main Title -->
+				
+				<!-- Investor List Shortcode -->
+				<div class="neoh_fn_investor">
+					<ul>
+						<li>
+							<div class="item">
+								<img src="img/investors/1.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/2.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/3.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/4.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/5.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/6.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/7.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/8.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/9.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<img src="img/investors/10.png" alt="">
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="center_align">
+					<br/>
+					<h3 class="fn_title">and many more...</h3>
+					<div class="line"><span></span></div>
+				</div>
+				<!-- !Investor List Shortcode -->
+				
+			</div>
+		</section>
+		<!-- !Investor Section -->
+
+		<!-- Contact Section -->
+		<section id="contact" style="background-image: url(/img/shop/kids_climb_bg.jpg);">
+			
+			<!-- Dividers -->
+			<img src="svg/divider.svg" alt="" class="fn__svg fn__divider top_divider">
+			<img src="svg/divider.svg" alt="" class="fn__svg fn__divider bottom_divider">
+			<!-- !Dividers -->
+		
+			<div class="container" style="background: rgb(0, 0, 0, 0.8);">
+				
+				<!-- Main Title -->
+				<div class="neoh_fn_title">
+					<h3 class="fn_title">Reach Us</h3>
+					<div class="line"><span></span></div>
+				</div>
+
+				<div class="info_list">
+					<ul>
+						<li>
+							<p class="label">Instagram</p>
+							<div class="row">
+								<i class="fa fa-instagram" style="font-size:48px;color:yellow"></i><h3 class="col text-left"><a href="https://www.instagram.com/zeroto_5/" target="_blank">zeroto_5</a></h3>
+							</div>
+						</li><li>
+							<p class="label">Address</p>
+							<h3 class="value">Calicut Road, Payod, Mananthavady, Wayanad 670645</h3>
+						</li>
+						<li>
+							<p class="label">Phone</p>
+							<h3 class="value"><a href="tel:+7068980751">(+91) 99 46 246 146</a></h3>
+						</li>
+						<li>
+							<a href="mailto:zeroto5@outlook.com" class="email"><span class="__cf_email__">zeroto5@outlook</span>.com</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=ZeroTo5+Baby+Shop, Edavaka+Mananthavady+Kerala&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+
+			</div>
+		</section>
+
+		<!-- !Contact Section -->
+	
+	</div>
+	<!-- Content -->
+	
+	
+	<!-- Totop -->
+	<a href="#" class="neoh_fn_totop">
+		<span class="arrow"><img src="svg/right-arr.svg" alt="" class="fn__svg"></span>
+		<span class="circle"><img src="svg/circle.svg" alt="" class="fn__svg"></span>
+	</a>
+	<!-- !Totop -->
+	 
+	
+</div>
+<!-- !Main -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+<script type="text/javascript" src="js/init4963.js?ver=1.1"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<!--script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js"></script>
+<script type="text/javascript" src="js/fire.js"></script-->
+<!-- !Scripts -->
+
+</body>
+
+<!-- Mirrored from frenify.net/envato/frenify/html/neoh/1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jun 2022 12:20:22 GMT -->
+</html>
